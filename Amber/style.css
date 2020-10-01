@@ -1,0 +1,169 @@
+/* ------------------------------ COLORS 
+bg:	#6d3469; 
+green: #346d3c;
+------------------------------*/
+
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	color: black;
+}
+a, a:hover{
+	text-decoration: none;
+}
+body {
+	background-color: #fff;
+	font-family: sans-serif;
+	overflow-x: hidden;
+}
+/* -----------------------------header------------------------------*/
+header{
+	background-color: #6d3469;
+	background-image: linear-gradient(149deg, #6d3469 0%, #fff 117%);
+}
+/* ------------------------------logo------------------------------*/
+#amber {
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px:
+
+}
+#es {
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px: 
+}
+/* ------------------------------ end logo------------------------------*/
+/* ------------------------------nav ------------------------------*/
+.navbar {
+    transition: all 0.5s;
+  	border: none;
+  	background: 0 0;
+  	border-radius: 0;
+}
+nav ul li{
+	padding: 0 15px;
+}
+.navbar .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar .navbar-brand {
+    color: #fff;
+}
+.navbar-toggler {
+    font-size: 1.7rem;
+}
+/* ---------------------
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus,
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    transition-timing-function: ease-in;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    background-color: #2d3c44;
+}
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    background-color: #d47678;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #d47678;
+}
+---------------------*/
+/* ------------------------------navbar on scroll ------------------------------*/
+.navbar.active {
+    background: #fff;
+    color: black;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link,
+.navbar.active .navbar-brand,
+.navbar.active #amber {
+    color: #346d3c;   
+}
+.navbar.active #es {
+	color: 	#1855b0;
+}
+/* --------------------- ---------Nav on <md screens------------------------------*/
+@media (max-width: 768px) {
+.navbar {
+    background: #fff;
+    color: #346d3c;
+}
+
+#amber, .navbar .navbar-brand, .navbar .nav-link {
+    color: #346d3c;
+}
+.navbar-brand{
+	padding-left: 20px;
+}
+#es {
+	color: 	#1855b0;
+}
+.navbar li {
+	margin: 0 auto;
+}}
+/* ------------------------------ end nav ------------------------------*/
+/* ------------------------------ jumbotron btns ------------------------------*/
+@media (max-width: 1200px) {
+.jumbotron a button {
+	display: block;
+	margin-bottom: 5px;
+}}
+/* ------------------------------ end header -----------------------------*/
+/*--------------------- section2 - Nivolumab  ---------------------*/
+/*--------------------- section3 - papersections ---------------------*/
+#papersections {
+	margin-top: 8rem;
+}
+#papersections .violetbg {
+	background-color: #6d3469!important; 
+}
+#papersections .wbg {
+	background-color: #fff!important;
+}
+.violetbg p, .violetbg h3{
+	color: #fff;
+}
+/* ----------------------------footer ------------------------------*/
+footer {
+	background: #6d3469;
+	padding-top: 10rem;
+}
+footer ul li, footer h4, footer p {
+	color: white;
+}
+footer .eslogo {
+	max-width: 250px;
+	max-height: 250px;
+	margin: -50px auto;
+}
+footer .copyrights {
+	background-color: #5a2b57;
+}
+/*footer hr{
+	border: 0;
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    height: 1px;
+}
+
+}
+*/
+
+/* ----------------------------end footer---------------------------*/
